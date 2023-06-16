@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Lily+Script+One&display=swap');
+
+:root {
+    --fonte1: 'Lily Script One', cursive;
+    --fonte2: 'Actor', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    font-size: 62,5%; /*1 rem = 10px*/
+}
+
+body {
+    cursor: url(./assets/Classic\ Mickey\ Mouse.cur), auto;
+}
+
+.cabecalho {
+    width: 100vw;
+    height: 20vh;
+    background-color: #1E1E1E;
+}
+
+.navegacao {
+    height: 100%;
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.navegacao__item{
+    display: inline-block;
+    margin-right: 8.9vw;
+    font-size: 3.2rem;
+}
+
+#navegacao__item__direita {
+    margin-right: 0;
+
+}
+
+.navegacao__link {
+    font-family: var(--fonte1);
+    color: #FFFFFF;
+    
+}
+
+main {
+    background-color: #FFFFFF;
+}
+
+.banner__imagem {
+    width: 100vw;
+}
+
+main{
+    margin-bottom: 10rem; 
+
+}
+
+.cartazes1, .cartazes2 {
+    margin: 6.4rem 5.3rem 5.75rem 13.8rem;
+}
+
+.cartaz{
+    display: inline-block;
+    margin: 0 5.3rem 0 0;
+    width: 25vw;
+}
+
+.cartaz__imagem {
+    width: 100%;
+}
+
+.rodape{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1E1E1E;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+a {
+    cursor: url(./assets/Normal\ Select\ 2.cur), auto;
+}
+
+a:hover {
+    color: #0F67B5;
+    text-shadow: #FFFFFF 1px 1px 1px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
